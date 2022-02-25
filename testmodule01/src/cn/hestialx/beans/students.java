@@ -7,6 +7,9 @@ package cn.hestialx.beans;
 public class students {
     String name;
     int id;
+    students(){
+        System.out.println("创建学生类");
+    }
 
     public String getName() {
         return name;
